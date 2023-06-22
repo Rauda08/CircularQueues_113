@@ -123,19 +123,24 @@ int main() {
 				q.remove();
 				break;
 			}
-			case '3' {
-				q.display();
-				break;
-			}
-			case '4'
-				return 0;
+					case '3' {
+						q.display();
+						break;
+					}
+					case '4'
+						return 0;
 			}
 			default: {
 				cout << "Invalid option!!" << endl;
-
+				break;
 			}
+			}
+		}
+		catch (exeption& e) {
+			cout << "Check for the values entered." << endl;
 		}
 	}
 
+	return 0;
 }
 
